@@ -35,8 +35,12 @@ knit: |
   })
 ---
 
-
-![椒盐排骨](../image/pork-rib-ricecake.jpeg){width=70% fig-align="center"}
+```{r, echo=FALSE, fig.show='hold', out.width='48%', fig.align='center'}
+knitr::include_graphics(c(
+  "../image/pork-rib-ricecake.jpeg",
+  "../image/pork-rib-ricecake2.jpeg"
+))
+```
 
 ## 食材
 
