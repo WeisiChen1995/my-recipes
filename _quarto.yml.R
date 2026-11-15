@@ -1,0 +1,12 @@
+project:
+  type: website
+output-dir: docs
+
+website:
+  title: "我的食谱"
+navbar:
+  search: true
+
+format:
+  html:
+  theme: cosmo
