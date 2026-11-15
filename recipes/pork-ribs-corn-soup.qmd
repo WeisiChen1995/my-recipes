@@ -1,3 +1,4 @@
+
 ---
 title: "排骨玉米汤"
 categories: [Pork, Soup, Easy]
@@ -6,15 +7,12 @@ format:
   html:
     embed-resources: true
     toc: true
-
   pdf:
     pdf-engine: xelatex
     CJKmainfont: "PingFang SC"
     papersize: a4
-    geometry:
-      - margin=20mm
-    toc: false
 ---
+
 
 
 ![排骨玉米汤](../image/pork-rib-soup-with-corn-carrot.jpg){width=70% fig-align="center"}
