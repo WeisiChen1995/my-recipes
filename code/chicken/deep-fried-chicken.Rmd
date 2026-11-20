@@ -1,0 +1,80 @@
+---
+title: "椒盐鸡翅"
+
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: false
+
+documentclass: ctexart
+classoption:
+  - fontset=fandol
+
+papersize: a4
+geometry: margin=16mm
+fontsize: 10pt
+
+knit: |
+  (function(input, ...) {
+
+    root_dir <- normalizePath(
+      file.path(dirname(input), "../..")
+    )
+
+    pdf_dir <- file.path(root_dir, "pdf", "chicken")
+
+    dir.create(
+      pdf_dir,
+      recursive = TRUE,
+      showWarnings = FALSE
+    )
+
+    message("Saving PDF to: ", pdf_dir)
+
+    rmarkdown::render(
+      input,
+      output_format = "pdf_document",
+      output_dir = pdf_dir
+    )
+  })
+---
+
+
+```{r, echo=FALSE, fig.show='hold', out.width='48%', fig.align='center'}
+knitr::include_graphics(c(
+  "../../image/deep-fried-chicken-wings.jpg"
+))
+```
+
+
+```{r, echo=FALSE, fig.show='hold', out.width='48%', fig.align='center'}
+knitr::include_graphics(c(
+  "../../image/deep-fried-chicken-wings2.jpg"
+))
+```
+
+## 食材
+
+| 食材 | 用量 |
+  |---|---|
+  | 鸡翅 | 几个 |
+  | 姜片 | 几个 |
+  | 料酒 | 1勺 |
+  | 生抽 | 1勺 |  
+  | 白胡椒 | 半勺 |
+  | 盐 | 半勺 |
+  | 鸡蛋 | 1个 |
+  | 淀粉 | 2勺 |
+  | 食用油 | 适量 |
+  
+
+## 做法
+  
+  1️⃣ 鸡翅改花刀，加几片姜。<br>
+  
+  2️⃣ 腌制鸡翅：加一勺料酒，一勺生抽，半勺白胡椒，半勺盐，腌制半小时。 <br>
+  
+  3️⃣ 倒掉腌汁，加个鸡蛋，两勺淀粉，抓均匀。 <br> 
+  
+  4️⃣ 热锅冷油，下鸡翅，煎至双面金黄（大火转小火再转大火，整个过程5-8分钟）。 <br> 
+  

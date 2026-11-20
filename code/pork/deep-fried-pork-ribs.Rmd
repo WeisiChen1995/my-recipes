@@ -35,7 +35,12 @@ knit: |
   })
 ---
 
-![椒盐排骨](../image/deep-fried-pork-rib.jpg){width=70% fig-align="center"}
+```{r, echo=FALSE, fig.show='hold', out.width='48%', fig.align='center'}
+knitr::include_graphics(c(
+  "../../image/pork-meatball1.jpg",
+  "../../image/pork-meatball2.jpg"
+))
+```
 
 ## 食材
 
